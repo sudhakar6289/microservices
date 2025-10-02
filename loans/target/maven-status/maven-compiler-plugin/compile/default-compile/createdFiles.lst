@@ -1,0 +1,16 @@
+com\dhatri\loans\dto\ErrorResponseDto.class
+com\dhatri\loans\exception\GlobalExceptionHandler.class
+com\dhatri\loans\exception\ResourceNotFoundException.class
+com\dhatri\loans\repository\LoansRepository.class
+com\dhatri\loans\mapper\LoansMapper.class
+com\dhatri\loans\service\impl\LoansServiceImpl.class
+com\dhatri\loans\dto\LoansDto.class
+com\dhatri\loans\dto\ResponseDto.class
+com\dhatri\loans\service\ILoansService.class
+com\dhatri\loans\audit\AuditAwareImpl.class
+com\dhatri\loans\constants\LoansConstants.class
+com\dhatri\loans\LoansApplication.class
+com\dhatri\loans\entity\Loans.class
+com\dhatri\loans\controller\LoansController.class
+com\dhatri\loans\entity\BaseEntity.class
+com\dhatri\loans\exception\LoanAlreadyExistsException.class
