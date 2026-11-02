@@ -35,7 +35,9 @@ public class AccountsController {
                                                                @RequestParam
                                                                String mobileNumber) {
         CustomerDto customerDto = iAccountsService.fetchAccount(mobileNumber);
-        return ResponseEntity.status(HttpStatus.OK).body(customerDto);
+        return ResponseEntity
+                .status(HttpStatus.OK)
+                .body(customerDto);
     }
 
 
